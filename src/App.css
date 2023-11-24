@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  /* margin-right: 400px;
+  margin-left: 400px; */
+  margin-top: 400px;
+  background-color: black;
+  background-image: url("./Components/pictures/quiereCacao2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.fondo {
+  margin-right: 500px;
+  margin-left: 500px;
+  margin-top: 500px;
+  background-color: black;
+  background-image: url("./Components/pictures/quiereCacao2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.section1{
+  padding: 10px 10px 0px 10px;
+  border-radius:   8px;
+  background-color: rgba(255, 255, 255,0.2);
+}
+
+.section2{
+  padding: 0 20px;
+  background-color: rgba(255, 255, 255,0.2);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+main{
+  width: 630px;
+  margin: 100px auto 30px;
+  display: flex;
+  align-items: center;
+}
